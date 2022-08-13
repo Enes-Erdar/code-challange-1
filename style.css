@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    margin-top: 100px;
+    width: 800px;
+    height: 400px;
+    border: 5px solid red ;
+    position: relative;
+    
+}
+#image{
+    width: 200px;
+    height: 200px;
+    /* border: 3px solid red; */
+    background-image: url(./img/safar-safarov-msn8tfhj0is-unsplash-scaled.jpeg);
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.text{
+    width: 500px;
+    position: absolute;
+    left: 250px;
+    top: 50px;
+    padding: 10px;
+    font-size: large;
+    letter-spacing:1px;
+}
